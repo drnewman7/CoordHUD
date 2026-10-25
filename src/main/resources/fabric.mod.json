@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "coordhud",
+  "version": "${version}",
+  "name": "CoordHUD",
+  "description": "A compact, Bedrock-style HUD showing your coordinates, an 8-way compass heading and the world day, with a one-click copy button. Client-side only. Dev : Dr. Newman",
+  "authors": [
+    "Dr. Newman"
+  ],
+  "contact": {
+    "homepage": "https://github.com/drnewman7/coordhud",
+    "sources": "https://github.com/drnewman7/coordhud",
+    "issues": "https://github.com/drnewman7/coordhud/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/coordhud/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.drnewman.coordinateshud.client.CoordinatesHudClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.161.0"
+  },
+  "custom": {
+    "credits": "Dev : Dr. Newman"
+  }
+}
