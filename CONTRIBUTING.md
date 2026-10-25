@@ -2,6 +2,8 @@
 
 Thanks for helping. Dev : Dr. Newman
 
+> **Maintenance note:** this project is not actively maintained at the moment. Pull requests and issues are welcome, but reviews and replies may be slow or may not happen. Forking is encouraged; the MIT license only asks that you keep the copyright notice.
+
 ## Ground rules
 
 - Keep it small. This mod does one job; new features should be optional and off the hot path.

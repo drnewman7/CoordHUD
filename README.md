@@ -15,6 +15,10 @@ A small, good-looking HUD for Minecraft Java Edition (Fabric) that shows your co
 ```
 (Layout sketch only; the real HUD uses small pixel icons.)
 
+## Project status
+
+CoordHUD is published as-is. It is **not actively maintained right now**: I may come back to it in the future, or I may not, and I can't promise fixes, updates for new Minecraft versions, or replies to issues. It is open source under the MIT license, so you are welcome to fork it and carry it on (please keep the credit, see *License and credit* below).
+
 ## Features
 
 - Live **X / Y / Z** block coordinates, correct for negative values (block -1 starts at -1.0, not 0).
@@ -112,7 +116,7 @@ Project layout:
 
 ## Bugs and contributions
 
-Please open an issue with your Minecraft, Fabric Loader, Fabric API and mod versions, your other mods, and `logs/latest.log` or the crash report. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
+You can open an issue with your Minecraft, Fabric Loader, Fabric API and mod versions, your other mods, and `logs/latest.log` or the crash report. Because the project is not actively maintained, there is no guarantee of a response or a fix. Pull requests are welcome and may be reviewed when time allows; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License and credit
 
